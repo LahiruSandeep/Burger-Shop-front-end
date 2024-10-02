@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./styles/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Burger Shop</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="nav__container">
+            <ul class="nav__ul nav__ul--desktop" id="nav-ul--desktop">
+                <h2 class="nav__h2">Burger Shop</h2>
+                <li class="nav__li"> <a href="#menu">menu</a></li>
+                <li class="nav__li"> <a href="#about">about</a></li>
+                <li class="nav__li"> <a href="#book">book table</a></li>
+            </ul>
+            <i class="fa-solid fa-user nav__icon nav__icon--user"></i>
+            <i class="fa-solid fa-burger nav__icon nav__icon--menu" id="menu-btn"></i>
+        </div>
+    </nav>
+
+
+    <section class="section-hero">
+        <div>
+            <h1 class="section-hero__swiper__h1">Fast food<br> Restaurant</h1>
+            <p class="section-hero__swiper__p">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam inventore
+                facilis eligendi illo culpa, est eveniet dolores. Mollitia temporibus consequatur aperiam optio
+                voluptatum nostrum in tempora!
+            </p>
+            <button class="button">
+                <p class="buttonn__p">Book Table</p>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="section-menu" id="menu">
+        <h2 class="section-menu__h2">Our Menu</h2>
+        <div class="section-menu__container" id="btn-container">
+            <button class="button--light active" id="all-btn">All</button>
+            <!-- <button class="button--light" id="burger-btn">Burger</button>
+            <button class="button--light" id="pizza-btn">Pizza</button>
+            <button class="button--light" id="pasta-btn">Pasta</button>
+            <button class="button--light" id="fries-btn">Fries</button> -->
+        </div>
+        <div class="section-menu__container section-menu__container--food">
+            <div class="section-menu__filter-card pizza">
+                <div class="filter-card__img-container">
+                    <img src="./images/f1.png" alt="pizza" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Delicious Pizza</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 1800.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card burger">
+                <div class="filter-card__img-container">
+                    <img src="./images/f2.png" alt="burger" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Classic Burger(Regular)</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 1500.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card pizza">
+                <div class="filter-card__img-container">
+                    <img src="./images/f3.png" alt="pizza" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Delicious Pizza</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 950.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card pasta">
+                <div class="filter-card__img-container">
+                    <img src="./images/f4.png" alt="pasta" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Delicious Pasta</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 850.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card fries">
+                <div class="filter-card__img-container">
+                    <img src="./images/f5.png" alt="fries" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">French Fries</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 1200.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card pizza">
+                <div class="filter-card__img-container">
+                    <img src="./images/f6.png" alt="pizza" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Delicious Pizza</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 2400.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card burger">
+                <div class="filter-card__img-container">
+                    <img src="./images/f7.png" alt="burger" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Tasty Burger</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 900.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card burger">
+                <div class="filter-card__img-container">
+                    <img src="./images/f8.png" alt="burger" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Tasty Burger</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 1300.00</h4>
+                </div>
+            </div>
+
+            <div class="section-menu__filter-card pasta">
+                <div class="filter-card__img-container">
+                    <img src="./images/f9.png" alt="pasta" class="filter-card__img">
+                </div>
+                <div class="filter-card__text-container">
+                    <h3 class="filter-card__h3">Delicious Pasta</h3>
+                    <p class="filter-card__p">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus quis iste quia, laboriosam
+                        inventore.
+                    </p>
+                    <h4 class="filter-card__h4">Rs 1250.00</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-about" id="about">
+        <div class="section-about__container">
+            <div class="section-about__img-container">
+                <img src="./images/about-img.png" alt="burger" class="section-about__img">
+            </div>
+            <div class="section-about__text-container">
+                <h2 class="section-about__h2">We are Burger Shop</h2>
+                <p class="section-about__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi recusandae id perspiciatis labore
+                    molestias pariatur cum suscipit voluptatem enim dolor odio vero nostrum inventore veritatis,
+                    harum, dolorem, ipsam laboriosam. Earum quos maiores quam aliquid natus.
+                    Reprehenderit maxime ab nobis? Quisquam similique fugit totam neque quaerat,
+                    ipsam provident laboriosam modi quam quibusdam enim ab deleniti molestias id
+                    eaque maiores?
+                </p>
+                <button class="button">
+                    <p class="buttonn__p">Book Table</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__top-container">
+            <div class="footer__card">
+                <h5 class="footer__h5">Contact Us</h5>
+                <a href="#" class="footer__a">
+                    <i class="fa-solid fa-phone"></i>
+                    <p class="footer__p">Call 047 222 6789</p>
+                </a>
+                <a href="#" class="footer__a">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p class="footer__p">demo@gmail.com</p>
+                </a>
+            </div>
+
+            <div class="footer__card">
+                <h5 class="footer__h5">Burger Shop</h5>
+                <p class="footer__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+                    deleniti obcaecati alias suscipit, laboriosam est excepturi similique reiciendis
+                    perspiciatis facilis tempora.
+                </p>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+
+            <div class="footer__card">
+                <h5 class="footer__h5">Opening Hours</h5>
+                <p class="footer__p footer__p--block">Everyday</p>
+                <p class="footer__p footer__p--block"> 08:00 am - 10:00 pm</p>
+            </div>
+
+        </div>
+        <div class="footer__bottom-container">
+            <p class="footer__p footer__p--block">© 2024 All Rights Reserved </p>
+            <p class="footer__p footer__p--block">© Lahiru Sandeepa</p>
+        </div>
+
+    </footer>
+</body>
+
+<script src="./js/script.js" type="module"></script>
+
+</html>
