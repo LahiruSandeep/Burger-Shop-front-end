@@ -13,8 +13,6 @@ const formBook = document.getElementById("form-book")
 
 
 
-
-
 const filterSelection =(filterOption) =>{
   
   let cards = document.getElementsByClassName("section-menu__filter-card")
@@ -51,29 +49,6 @@ for (let i = 0; i < filterBtns.length; i++) {
     this.className += " active"
   });
 }
-
- const validateForm= (e)=> {
-  e.preventDefault()
-  console.log("entro")
-  const inputs = document.querySelectorAll('.section-book__input')
-  const personsSelect = document.querySelector('select[name="persons"]')
-  console.log(personsSelect.value)
-  
-  for (let i = 0; i < inputs.length; i++) {
-      if (!inputs[i].value) {
-          alert('Please fill in all fields.')
-          return false;
-      }
-  }
-  
-  if (personsSelect.value == "How many persons?") {
-      alert('Please select a number between 1 and 6 for persons.')
-      return false
-  }
-  
-  return true
-}
-
 
 
 filterSelection("all")
